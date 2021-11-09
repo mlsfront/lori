@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/loriStyle.css">
-    <title>Tabuada</title>
+    <title>Tabuada da Lori</title>
 
 </head>
 <body id="degrade">
@@ -17,34 +17,15 @@
                 <input type="number" name="num" id="numText" placeholder="Digite um número de 0 a 10">
                 <input type="button" value="Gerar Tabuada" id="gerarTab" onclick="tabuada()">
             </p>
-            <p>Clique na barra abaixo depois de gerar tabuada</p>
-        </div>        
+        </div>
         <div class="gerar">
             <select name="tabuada" id="seltab" size="10">
+                <p>Clique na barra abaixo depois de gerar tabuada</p>
                 <option>Click em Gerar Tabuada</option>
             </select>
         </div>
     </section>
-    <script type="text/javascript">
-        function tabuada() {
-            let num = document.querySelector(`input#numText`);
-            let tab = document.querySelector(`select#seltab`);
-            if (num.value.length == 0) {
-                window.alert(`Por favor, digite um número!`);
-            } else {
-                let n = Number(num.value);
-                let c = 1;
-                tab.innerHTML = ``; // Limpa para fazer outra tabuada
-                while (c <= 10) {
-                    let item = document.createElement(`option`);    // cria um option no html
-                    item.text = `${n} x ${c} = ${n*c}`;         // mostra dentro do select
-                    item.value = `tab${c}`; // Para ser usada com outra lin, tipo PHP
-                    tab.appendChild(item);
-                    c++;
-                };
-            };  
-        };
-    </script>
+    <script src="js/functio.js"></script>
 <footer>
     <p>&copy; TioMazão</p>
 </footer>
