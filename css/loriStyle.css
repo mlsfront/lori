@@ -78,27 +78,5 @@ footer {
   section {
     padding-left: 0;
   }
-} 
-/*@media screen and (min-width: 320px) {
-    section {
-        background-color: pink;
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
-        padding: 15px;
-        width: 50%;
-        margin: auto;
-    }
 }
-
-@media screen and (min-width: 480px) {
-    section {
-        background-color: pink;
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
-        padding: 15px;
-        width: 50%;
-        margin: auto;
-    }
-}*/
-
 
