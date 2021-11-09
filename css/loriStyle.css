@@ -61,7 +61,19 @@ footer {
   section .content-footer .middle{
     padding-left: 50px;
     width: 60%;
-    margin: auto;
+    margin: auto;    
+  }
+  #numText {
+    width: 60%;
+    margin: 10px auto;  
+  }
+  #gerarTab {     
+    width: 62%;
+    margin-left: 60px;
+  }
+  #seltab {
+    width: 60%;
+    margin: 10px auto;  
   }
 }
 @media (max-width:950px){
@@ -69,20 +81,54 @@ footer {
     width: 60%;
     margin: auto;
   }
+  #numText {
+    width: 60%;
+    margin: 10px auto;  
+  }
+  #gerarTab {     
+    width: 62%;
+    margin-left: 60px;
+  }
+  #seltab {
+    width: 60%;
+    margin: 10px auto;  
+  }
 }
 @media (max-width:760px){
   section {
     width: 60%;
     margin: auto;
   }
+  #numText {
+    width: 60%;
+    margin: 10px auto;  
+  }
+  #gerarTab {     
+    width: 62%;
+    margin-left: 60px;
+  }
+  #seltab {
+    width: 60%;
+    margin: 10px auto;  
+  }
 }
 @media (min-width:560px){
   section {
     width: 60%;
     margin-top: 30px;
-  }
-  section {
     padding-left: 0;
+  }
+  #numText {
+    width: 60%;
+    margin: 10px auto;  
+  }
+  #gerarTab {     
+    width: 62%;
+    margin-left: 60px;
+  }
+  #seltab {
+    width: 60%;
+    margin: 10px auto;  
   }
 }
 
