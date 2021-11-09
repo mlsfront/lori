@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'mlsFont';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+	background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#d2eaff));
+	height: 70%;
+}
+
+header {
+	font-family: 'mlsFont';
+    color:  purple;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+}
+.conteudo{
+    padding-left: 20px;
+}
+.gerar {
+    padding-left: 20px;
+}
+#numText {
+	width: 60%;
+    margin: 10px auto;	
+}
+
+#gerarTab {		
+	width: 62%;
+    margin-left: 60px;
+
+}
+
+#seltab {
+	width: 80%;
+    margin: 10px auto;	
+} 
+
+footer {
+    font-family: 'mlsFont';
+    color: #000;
+    text-align: center;
+    font: italic;
+}
+
+@media (max-width:1100px) {
+  section .content-footer .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  section {
+    width: 80%;
+  }
+}
+@media (max-width:560px){
+  section {
+    position: relative;
+  }
+  section {
+    width: 80%;
+    margin-top: 30px;
+  }
+  section {
+    padding-left: 0;
+  }
+} 
+/*@media screen and (min-width: 320px) {
+    section {
+        background-color: pink;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+        padding: 15px;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    section {
+        background-color: pink;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+        padding: 15px;
+        width: 50%;
+        margin: auto;
+    }
+}*/
+
+
