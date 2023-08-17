@@ -5,12 +5,11 @@
 }
 
 body {
-	background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#d2eaff));
-	height: 70%;
+	background: linear-gradient(90DEG, #1c82e4, #d2eaff);
 }
 
 header {
-	font-family: 'mlsFont';
+  	font-family: 'mlsFont';
     color:  purple;
     width: 50%;
     margin: auto;
@@ -22,34 +21,23 @@ h1 {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: pink;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
     padding: 25px;
-    width: 50%;
+    width: 500px;
     margin: auto;
-}
-.conteudo{
-    padding-left: 20px;
-}
-.gerar {
-    margin-left: 60px;
-}
-#numText {
-	width: 60%;
-    margin: 10px auto;	
-}
-
-#gerarTab {		
-	width: 62%;
-    margin-left: 60px;
-
-}
-
-#seltab {
-	width: 60%;
-    margin: 10px auto;	
 } 
+
+.conteudo > p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px;
+}
 
 footer {
     font-family: 'mlsFont';
@@ -58,30 +46,28 @@ footer {
     font: italic;
 }
 
-@media (max-width:1100px) {
-  section .content-footer .middle{
-    padding-left: 50px;
-    width: 60%;
-    margin: auto;    
+@media (max-width:600px){
+  h1 {
+    margin-bottom: -7px;
   }
-}
-@media (max-width:950px){
   section {
-    width: 60%;
-    margin: auto;
-  }
-}
-@media (max-width:760px){
-  section {
-    width: 60%;
-    margin: auto;
-  }
-}
-@media (min-width:560px){
-  section {
-    width: 60%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
-    padding-left: 0;
+    padding: 3px;
+    gap: 7px;
+  }
+
+  .conteudo > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+  }
+
+  .conteudo > p > input {
+    margin: 3px 0;
   }
 }
 
