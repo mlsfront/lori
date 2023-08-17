@@ -39,6 +39,10 @@ section {
   padding: 7px;
 }
 
+.gerar {
+  padding-bottom: 14px;
+}
+
 footer {
     font-family: 'mlsFont';
     color: #000;
@@ -68,6 +72,14 @@ footer {
 
   .conteudo > p > input {
     margin: 3px 0;
+  }
+
+  .gerar {
+    margin-top: -14px;
+  }
+
+  #clear {
+    margin-top: -5px;
   }
 }
 
